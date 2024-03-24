@@ -20,12 +20,14 @@
                 <a href="/login">Login</a>
             </li>
             @endguest
+            @auth
             @if(Auth::user()->role == 'user')
                 <li class="px-2">Hi, {{Auth::user()->name}}</li>
                 <li class="px-4"><a href="/transaksi">Daftar Transaksi</a></li>
                 <li class="px-4 bg-white text-black rounded-lg py-1"><a href="/logout">Logout</a>
                 </li>
             @endif
+            @endauth
             </div>
         </ul>
         </div>

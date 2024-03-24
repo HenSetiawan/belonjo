@@ -32,8 +32,8 @@
                 <label class="text-sm text-gray-600"  for="name">Status</label>
                     <div class="border-2 p-1">
                         <select class="text-black w-full bg-transparent h-full border-transparent" name="status" id="">
-                            <option @if($product->status == 1) selected @endif value="true">Aktif</option>
-                            <option @if($product->status == 0) selected @endif value="false">Non Aktif</option>
+                            <option @if($product->status == 1) selected @endif value="1">Aktif</option>
+                            <option @if($product->status == 0) selected @endif value="0">Non Aktif</option>
                         </select>
                     </div>
             </div>

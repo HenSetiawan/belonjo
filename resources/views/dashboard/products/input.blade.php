@@ -31,8 +31,8 @@
                 <label class="text-sm text-gray-600"  for="status">Status</label>
                     <div class="border-2 p-1">
                         <select class="text-black w-full bg-transparent h-full border-transparent" name="status" id="">
-                            <option value="true">Aktif</option>
-                            <option value="false">Non Aktif</option>
+                            <option value="1">Aktif</option>
+                            <option value="0">Non Aktif</option>
                         </select>
                     </div>
             </div>

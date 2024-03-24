@@ -4,19 +4,26 @@ Teknologi yang digunakan
 
  1. Laravel 10
  2. PHP 8.1
- 3. PostgreSQL
+ 3. Mysql
  4. Tailwind CSS
  
  Fitur Aplikasi
  
- 1. Kelola Data Produk (CRUD) (Export Excel)
- 2. Kelola Data Kategori (CRUD) (Export Excel)
- 3. Kelola Data Supplier (CRUD) (Export Excel)
- 4. Kelola Data Barang Masuk (CRUD)
- 5. Kelola Data Barang Keluar (CRUD)
- 6. Kelola Officer (CRUD)
- 7. Kelola Data Admin (CRUD)
- 8. Multi Role Admin dan Officer
+ Admin
+ 1. Kelola data produk
+ 2. Kelola data kategori
+ 3. Kelola data admin
+ 4. Kelola data user
+ 5. Lihat daftar transaksi
+ 
+
+ User
+ 1. Melihat daftar produk
+ 2. Register user
+ 3. Login user
+ 4. Order produk
+ 5. Bayar dengan payment gateway
+ 6. Lihat daftar transaksi
 
      <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/login.png" width=100%>
      <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/dashboard.png" width=100%>
