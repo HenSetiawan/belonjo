@@ -25,18 +25,3 @@ Teknologi yang digunakan
  5. Bayar dengan payment gateway
  6. Lihat daftar transaksi
 
-     <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/login.png" width=100%>
-     <img src="https://raw.githubusercontent.com/HenSetiawan/simple-inventory/main/docs/dashboard.png" width=100%>
- 
-    <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-barang.png" width=100%>
-    <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/kategori.png" width=100%>
-
- 
-    <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/supplier.png" width=100%>
-    <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/barang-masuk.png" width=100%>
-
-
-    <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/barang-keluar.png" width=100%>
-    <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-petugas.png" width=100%>
-
-    <img src="https://github.com/HenSetiawan/simple-inventory/raw/main/docs/data-admin.png" width=100%>

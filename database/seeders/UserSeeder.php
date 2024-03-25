@@ -22,15 +22,5 @@ class UserSeeder extends Seeder
             'phone'=>'083848939629',
             'address'=>'Kab.Ngawi, Kec.Widodaren, Ds.Sekaralas'
         ]);
-
-            DB::table('users')->insert([
-            'name' => "Budi Anton",
-            'email' => "budi@gmail.com",
-            'password'=>Hash::make('ganteng'),
-            'role'=>'user',
-            'phone'=>'083848939629',
-            'address'=>'Kab.Ngawi, Kec.Widodaren, Ds.Sekaralas'
-        ]);
-
     }
 }

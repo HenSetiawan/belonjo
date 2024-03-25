@@ -50,8 +50,6 @@ class ProductSuppliesController extends Controller
        $orderQuantity = DB::table('orders')->join('products','orders.product_id','=','products.id')->where('products.id','=',
        $request->product_id)->where('payment_status','=','2')->sum('quantity');
 
-       dd($orderQuantity);
-
        $product = Product::findOrFail($request->product_id);
        $quantityUpdated = $product->update([
         'stock'=>($sumIncomeQuantity - ($sumOutcomeQuantity+$orderQuantity))
