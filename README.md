@@ -1,4 +1,4 @@
-**Aplikasi Inventori Barang Sederhana**
+**Aplikasi Belanja Barang Sederhana**
 
 Teknologi yang digunakan
 
